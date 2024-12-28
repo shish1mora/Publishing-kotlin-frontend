@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">PublishingHouseKotlin</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    // Меню
+    <string name="menu_bookings">Заказы</string>
+    <string name="menu_products">Продукция</string>
+    <string name="menu_employees">Сотрудники</string>
+    <string name="menu_materials">Материалы</string>
+    <string name="menu_printingHouses">Типографии</string>
+    <string name="menu_typeProducts">Типы продукции</string>
+    <string name="menu_customers">Заказчики</string>
+    <string name="exit">Выйти</string>
+
+    // Данные для сервера
+    <string name="server">http://192.168.15.18:9922/publishing</string>
+    <string name="keyForJwtResponse">THISISKEYFORJWTRESPONSE</string>
+
+    // Регистрация и авторизация
+    <string name="loginLabel">Авторизация пользователя</string>
+    <string name="registerLabel">Регистрация пользователя</string>
+    <string name="loginMessage">Введите данные для входа в систему</string>
+    <string name="email">Электронная почта</string>
+    <string name="password">Пароль</string>
+    <string name="confirmPassword">Подтверждение пароля</string>
+    <string name="loginButton">Войти</string>
+    <string name="signup">Зарегистрироваться</string>
+    <string name="registerMessage">Данные для регистрации</string>
+    <string name="nameUser">Наименование</string>
+    <string name="phone">Номер телефона</string>
+
+    //Тип продукции - сохранение
+    <string name="saveTypeProductLabel">Сохранение типа продукции</string>
+    <string name="DataAboutTypeProductTitle">Данные о типе продукции</string>
+    <string name="TypeProduct">Тип продукции</string>
+    <string name="marginOfTypeProduct">Наценка в %</string>
+    <string name="saveButton">Сохранить</string>
+
+    //Тип продукции - детальная информация
+    <string name="detailsLabel">Полная информация</string>
+    <string name="deleteButton">Удалить</string>
+    <string name="editButton">Изменить данные</string>
+
+    //Материал
+    <string name="material">Материал</string>
+    <string name="saveMaterialLabel">Сохранение материала</string>
+    <string name="dataAboutMaterialTitle">Данные о материале</string>
+    <string name="type">Тип</string>
+    <string name="cost">Стоимость</string>
+    <string name="size">Размер</string>
+    <string name="color">Цвет</string>
+
+    //Типография
+    <string name="printingHouse">Типография</string>
+    <string name="savePrintingHouseLabel">Сохранение типографии</string>
+    <string name="dataAboutPrintingHouseTitle">Данные о типографии</string>
+
+    // Сотрудники
+    <string name="dataAboutEmployeeTitle">Данные о сотруднике</string>
+    <string name="saveEmployeeLabel">Сохранение сотрудника</string>
+    <string name="employee">Сотрудник</string>
+
+    // Продукции
+    <string name = "saveProductLabel">Сохранение продукции</string>
+    <string name="dataAboutProductTitle">Данные о продукции</string>
+    <string name="showMaterials">Показать материалы</string>
+    <string name="hideMaterials">Скрыть материалы</string>
+    <string name="showBookings">Показать заказы</string>
+    <string name="hideBookings">Скрыть заказы</string>
+    <string name="chooseProducts">Выбор продукции</string>
+
+    //Заказы
+    <string name="saveBookingLabel">Сохранение заказа</string>
+    <string name="changeSearchType">Сменить параметр поиска</string>
+    <string name ="generateReport">Сгенерировать отчёт</string>
+    <string name="booking">Заказ</string>
+    <string name="showProducts">Показать продукцию</string>
+    <string name="hideProducts">Скрыть продукцию</string>
+    <string name="showEmployees">Показать сотрудников</string>
+    <string name="hideEmployees">Скрыть сотрудников</string>
+    <string name="workingWithBooking">Работа с заказом</string>
+    <string name="chooseData">Выберите данные</string>
+    <string name="setDateExecution">Выбрать дату выполнения</string>
+    <string name="select">Выбрать</string>
+    <string name="generateReportTitle">Генерация отчёта</string>
+
+    <string name="specifyPeriod">Укажите период</string>
+    <string name="chooseStartOfPeriod">Выбрать начало периода</string>
+    <string name="chooseEndOfPeriod">Выбрать конец периода</string>
+
+
+    //Заказчик
+    <string name="customer">Заказчик</string>
+
+</resources>

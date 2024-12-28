@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".controllers.DetailsProductActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:fontFamily = "@font/inter_bold"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/menu_products" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/photosView"
+                android:layout_width="300dp"
+                android:layout_height="350dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="2dp"
+                android:background="@drawable/bg_shadow"/>
+
+            <Button
+                android:id="@+id/backPhotoBtn"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Пред"
+                android:layout_below="@id/photosView"
+                android:layout_alignStart="@id/photosView"/>
+
+            <Button
+                android:id="@+id/forwardPhotoBtn"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="След"
+                android:layout_below="@id/photosView"
+                android:layout_alignEnd="@id/photosView"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/typeProductTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/costTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/userTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/userEmailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/showMaterialsBtn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/showMaterials" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/materialsRecyclerView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:scrollbars="vertical"/>
+
+        <Button
+            android:id="@+id/showBookingsBtn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/showBookings" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/bookingsRecyclerView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:scrollbars="vertical"/>
+
+        <Button
+            android:id="@+id/editBtn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/editButton" />
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_error"
+            android:text="@string/deleteButton" />
+
+    </LinearLayout>
+
+</ScrollView>

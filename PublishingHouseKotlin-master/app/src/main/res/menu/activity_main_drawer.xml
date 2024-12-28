@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bookings"
+            android:icon="@drawable/booking"
+            android:title="@string/menu_bookings"/>
+        <item
+            android:id="@+id/nav_customers"
+            android:icon="@drawable/customer"
+            android:title="@string/menu_customers" />
+        <item
+            android:id="@+id/nav_materials"
+            android:icon="@drawable/material"
+            android:title="@string/menu_materials" />
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@drawable/product"
+            android:title="@string/menu_products" />
+        <item
+            android:id="@+id/nav_employees"
+            android:icon="@drawable/employee"
+            android:title="@string/menu_employees" />
+        <item
+            android:id="@+id/nav_printingHouses"
+            android:icon="@drawable/printing_house"
+            android:title="@string/menu_printingHouses" />
+        <item
+            android:id="@+id/nav_typeProducts"
+            android:icon="@drawable/type_product"
+            android:title="@string/menu_typeProducts" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/door"
+            android:title="@string/exit"/>
+    </group>
+</menu>

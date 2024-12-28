@@ -1,0 +1,48 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="4dp"
+    android:layout_marginBottom="10dp">
+
+    <ImageView
+        android:id="@+id/iconView"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:padding="2dp" />
+
+    <TextView
+        android:id="@+id/mainTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/iconView"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="16dp"
+        tools:text="John Smith" />
+
+    <TextView
+        android:id="@+id/firstSubTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainTextView"
+        android:layout_toEndOf="@id/iconView"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="16dp"
+        android:textSize="13sp"
+        tools:text="Google Inc." />
+
+    <TextView
+        android:id="@+id/secondSubTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstSubTextView"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@id/iconView"
+        android:textSize="13sp"
+        tools:text="Google Inc."/>
+
+
+</RelativeLayout>

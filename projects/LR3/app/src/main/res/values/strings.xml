@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LR3</string>
+    <string name="cat_food">Пора покормить кота!</string>
+    <string name="channel_name">my_channel</string>
+    <string name="channel_description">channel for app</string>
+
+
+</resources>

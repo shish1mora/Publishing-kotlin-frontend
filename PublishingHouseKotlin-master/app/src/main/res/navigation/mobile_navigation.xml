@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/bookingsScreen">
+
+    <fragment
+        android:id="@+id/bookingsScreen"
+        android:name="com.example.publishinghousekotlin.fragments.booking.BookingFragment"
+        android:label="@string/menu_bookings"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/typeProductsScreen"
+        android:name="com.example.publishinghousekotlin.fragments.typeProduct.TypeProductFragment"
+        android:label="@string/menu_typeProducts"
+        tools:layout="@layout/fragment_general" />
+
+    <fragment
+        android:id="@+id/materialsScreen"
+        android:name="com.example.publishinghousekotlin.fragments.material.MaterialFragment"
+        android:label="@string/menu_materials"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/printingHousesScreen"
+        android:name="com.example.publishinghousekotlin.fragments.printingHouse.PrintingHouseFragment"
+        android:label="@string/menu_printingHouses" />
+    <fragment
+        android:id="@+id/employeesScreen"
+        android:name="com.example.publishinghousekotlin.fragments.employee.EmployeeFragment"
+        android:label="@string/menu_employees" />
+    <fragment
+        android:id="@+id/customersScreen"
+        android:name="com.example.publishinghousekotlin.fragments.customer.CustomerFragment"
+        android:label="@string/menu_customers" />
+    <fragment
+        android:id="@+id/productsScreen"
+        android:name="com.example.publishinghousekotlin.fragments.product.ProductFragment"
+        android:label="@string/menu_products" />
+</navigation>

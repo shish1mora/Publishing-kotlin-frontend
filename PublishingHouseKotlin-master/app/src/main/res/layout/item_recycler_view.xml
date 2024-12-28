@@ -1,0 +1,68 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="4dp"
+    android:layout_marginBottom="10dp">
+
+    <ImageView
+        android:id="@+id/iconView"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:padding="2dp" />
+
+    <TextView
+        android:id="@+id/mainTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/iconView"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="16dp"
+        tools:text="John Smith" />
+
+    <TextView
+        android:id="@+id/subTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainTextView"
+        android:layout_toEndOf="@id/iconView"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="16dp"
+        android:textSize="13sp"
+        tools:text="Google Inc." />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/showView"-->
+<!--        android:layout_width="25dp"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:layout_toStartOf="@id/editView"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:padding="2dp"-->
+<!--        android:src="@drawable/eye"/>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/editView"-->
+<!--        android:layout_width="25dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_toStartOf="@id/deleteView"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:padding="2dp"-->
+<!--        android:src="@drawable/edit"/>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/deleteView"-->
+<!--        android:layout_width="25dp"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:padding="2dp"-->
+<!--        android:src="@drawable/delete"/>-->
+
+</RelativeLayout>
